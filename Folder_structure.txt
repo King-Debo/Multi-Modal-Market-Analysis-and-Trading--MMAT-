@@ -1,0 +1,31 @@
+Files Names and Folder Structure
+The files names and folder structure for this project are:
+project/
+├── data/ # folder for storing the raw and processed data
+│   ├── numerical/ # folder for storing the numerical data, such as prices and volumes
+│   ├── textual/ # folder for storing the textual data, such as news articles and tweets
+│   ├── visual/ # folder for storing the visual data, such as charts and graphs
+│   └── audio/ # folder for storing the audio data, such as podcasts and interviews
+├── models/ # folder for storing the trained and deployed models
+│   ├── nlp/ # folder for storing the natural language processing model
+│   ├── gan/ # folder for storing the generative adversarial network model
+│   ├── cnn/ # folder for storing the convolutional neural network model
+│   ├── rnn/ # folder for storing the recurrent neural network model
+│   └── attn/ # folder for storing the attentional neural network model
+├── notebooks/ # folder for storing the notebooks for data exploration, analysis, and visualization
+│   ├── data_exploration.ipynb # notebook for exploring the data
+│   ├── data_analysis.ipynb # notebook for analyzing the data
+│   └── data_visualization.ipynb # notebook for visualizing the data
+├── scripts/ # folder for storing the scripts for data collection, integration, fusion, prediction, optimization, and execution
+│   ├── data_collection.py # script for collecting the data
+│   ├── data_integration.py # script for integrating the data
+│   ├── data_fusion.py # script for fusing the data
+│   ├── data_prediction.py # script for predicting the data
+│   ├── data_optimization.py # script for optimizing the data
+│   └── data_execution.py # script for executing the data
+├── endpoints/ # folder for storing the endpoints for serving the models and the predictions
+│   ├── nlp_endpoint.py # endpoint for serving the natural language processing model and the predictions
+│   ├── gan_endpoint.py # endpoint for serving the generative adversarial network model and the predictions
+│   ├── cnn_endpoint.py # endpoint for serving the convolutional neural network model and the predictions
+│   ├── rnn_endpoint.py # endpoint for serving the recurrent neural network model and the predictions
+│   └── attn_endpoint.py # endpoint for serving the attentional neural network model and the predictions
